@@ -28,7 +28,8 @@ namespace com.tweetapp
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server = LTIN148207\\SQLSERVEREXPRESS; Database = tweetApp; Trusted_Connection = true; MultipleActiveResultSets = true; User ID = sa; Password = sqlserver2019;");
+                optionsBuilder.UseSqlServer("Add your connection string here");
+                //add the connection string here for database connection
             }
         }
     }
